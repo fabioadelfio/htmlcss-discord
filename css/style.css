@@ -29,7 +29,7 @@ ul li{
 /* UTILS */
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
@@ -42,46 +42,48 @@ ul li{
     background-image: url(../img/jumbo.png);
 }
 
-.page-header2 {
-    margin-top: 10px;
-    justify-content: center;
-    align-content: center;
-    background-color: #00018B;
-    height: 395px;
-}
 
-.page-header1 > .container{
+.top-header .row .container{
     display: flex;
     justify-content: space-between;
-    background-color: #DAA71F;
-    margin-top: 10px;
+    align-items: center;
 }
 
-.container .logo {
-    padding: 5px;
+.top-header .row .container div {
+    font-size: 0.8rem
+}
+
+.top-header .logo-header {
     width: 25%;
-    border: 2px dashed black;
+    padding: 20px 0
 }
 
-.container .links {
-    padding: 5px;
+.top-header .logo-header img {
+    text-align: left;
+}
+
+.top-header .links-header {
+    color: white;
     width: 50%;
     text-align: center;
-    border: 2px dashed black;
 }
 
-.container .login {
-    padding: 5px;
+.top-header .links-header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-header .login-header {
     width: 25%;
-    text-align: right;
-    border: 2px dashed black;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.container.small-container{
-    background-color: #EF82ED;
-    width: 750px;
-    height: 330px;
-    border: 2px dashed black;
+.login-header > .btn-login {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 7px 13px;
 }
 
 /* MAIN */
