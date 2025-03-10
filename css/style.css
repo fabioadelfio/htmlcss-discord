@@ -29,7 +29,7 @@ ul li{
 /* UTILS */
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
@@ -40,6 +40,7 @@ ul li{
 
 .page-header {
     background-image: url(../img/jumbo.png);
+    background-size: 100%;
 }
 
 
@@ -50,7 +51,7 @@ ul li{
 }
 
 .top-header .row .container div {
-    font-size: 0.8rem
+    font-size: 1rem
 }
 
 .top-header .logo-header {
@@ -86,47 +87,53 @@ ul li{
     padding: 7px 13px;
 }
 
+.bottom-header {
+    padding: 120px 0;
+    color: white;
+}
+
+.bottom-header h1{
+    font-size: 3.2rem;
+}
+
+.container.container-xs {
+    text-align: center;
+}
+
+.container.container-xs p {
+    font-size: 1.3rem;
+    padding: 50px 200px 0px 200px;
+    line-height: 30px;
+}
+
+.btn-bottom-header {
+    margin-top: 25px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    padding: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn1-header {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+}
+
+.btn2-header {
+    border-radius: 30px;
+    background-color: #23272A;
+    color: white;
+    padding: 15px 20px;
+}
+
 /* MAIN */
 
-.section-page {
-    height: 450px;
-    justify-content: center;
-    align-content: center;
-}
 
-.container.content {
-    height: 395px;
-    display: flex;
-}
-
-.blue{
-    width: 60%;
-    background-color: #1E90FF;
-    border: 2px dashed black;
-}
-
-.pink {
-    width: 40%;
-    background-color: #FFC0CA;
-    border: 2px dashed black;
-}
-
-.section-page.gray {
-    background-color: #D3D3D3;
-}
-
-.big-section {
-    height: 1000px;
-    background-color: #D3D3D3;
-    justify-content: center;
-    align-content: center;
-}
-
-.container.big-content {
-    background-color: #218B21;
-    height: 940px;
-    border: 2px dashed black;
-}
 
 /* FOOTER */
 
