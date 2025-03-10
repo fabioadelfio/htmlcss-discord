@@ -40,7 +40,8 @@ ul li{
 
 .page-header {
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -92,8 +93,14 @@ ul li{
     color: white;
 }
 
-.bottom-header h1{
+h1{
     font-size: 3.2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 30px;
+    padding-top: 50px;
 }
 
 .container.container-xs {
@@ -101,9 +108,7 @@ ul li{
 }
 
 .container.container-xs p {
-    font-size: 1.3rem;
     padding: 50px 200px 0px 200px;
-    line-height: 30px;
 }
 
 .btn-bottom-header {
@@ -133,6 +138,87 @@ ul li{
 
 /* MAIN */
 
+.page-content > .section {
+    padding: 20px 0;
+    display: flex;
+}
+
+.page-content > .section:nth-child(odd) {
+    background-color: white;
+}
+
+.page-content > .section:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
+.page-content > .section:nth-child(even) .container.content {
+    flex-direction: row-reverse;
+}
+
+.section .container.content{
+    padding: 100px 0;
+    display: flex;
+}
+
+.col-img {
+    width: 60%;
+    text-align: left;
+}
+
+.col-text {
+    width: 40%;
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.col-text h1 {
+    font-size: 3.2rem;
+}
+
+.container.big-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container.big-content div{
+    text-align: center;
+    width: 100%;
+}
+
+.container.big-content img{
+    width: 100%;
+}
+
+.row-text {
+    padding: 0 70px;
+}
+
+.bottom-row {
+    background-image: url(../img/stars.svg);
+    font-size: 2rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
+
+.bottom-btn {
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #7289DA;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    max-width: 40%;
+}
+
+.bottom-content{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* FOOTER */
